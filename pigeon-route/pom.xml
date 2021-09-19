@@ -108,15 +108,9 @@
             </activation>
             <properties>
                 <activeProfile>dev</activeProfile>
-                <!--<web.domain.name>http://10.173.173.154:8001/</web.domain.name>-->
-                <!--<app.domain.name>http://10.173.173.154:8002/</app.domain.name>-->
-                <nacos.addr>10.168.100.182:8848</nacos.addr>
+                <nacos.addr>127.0.0.1:8848</nacos.addr>
                 <nacos.username>nacos</nacos.username>
                 <nacos.password>nacos</nacos.password>
-                <!--<sentinel.dashboard.addr></sentinel.dashboard.addr>-->
-                <!--<xxl.job.admin.addr>10.173.173.155:8083</xxl.job.admin.addr>-->
-                <!--<redis.sentinel>127.0.0.1:26379</redis.sentinel>-->
-                <!--<redis.password>redis123</redis.password>-->
             </properties>
         </profile>
     </profiles>
