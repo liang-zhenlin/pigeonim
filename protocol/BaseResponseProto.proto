@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package protocol;
+
+option java_package = "com.liang.pigeonim.common.protocol";
+option java_outer_classname = "PigeonIMResponseProto";
+
+message PigeonIMResProcotol {
+    string resMsg = 1;
+    int64 responseId = 2;
+    int32 type = 3;
+}

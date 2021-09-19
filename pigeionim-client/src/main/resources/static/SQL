@@ -1,0 +1,12 @@
+create database pigeon_im;
+
+use pigeon_im;
+
+create table `t_user`(
+	`user_id` bigint unsigned not null comment '用户表主键ID，用户ID',
+    `user_name` varchar(64) not null comment '用户名',
+    `user_phone` varchar(16) not null comment '用户联系方式',
+    `user_wechat_num` varchar(64) comment '用户微信号',
+    `status` tinyint(4) not null comment '用户状态：0 在线',
+    primary key(user_id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin COMMENT='用户表';

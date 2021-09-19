@@ -1,0 +1,2 @@
+dubboAdviceFilter=com.liang.pigeonim.common.filter.DubboAdviceFilter
+dubboExceptionFilter=com.liang.pigeonim.common.filter.DubboExceptionFilter
